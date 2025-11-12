@@ -5,9 +5,21 @@ import storyLunaCh3 from "@/assets/story-luna-ch3.jpg";
 import storyLunaCh4 from "@/assets/story-luna-ch4.jpg";
 import bookEarthHero from "@/assets/book-earth-hero.jpg";
 import bookJungleRecycling from "@/assets/book-jungle-recycling.jpg";
-import bookBottleJourney from "@/assets/book-bottle-journey.jpg";
-import bookCompostMagic from "@/assets/book-compost-magic.jpg";
-import bookPaperFriends from "@/assets/book-paper-friends.jpg";
+import storyOceanCover from "@/assets/story-ocean-cover.jpg";
+import storyOceanCh1 from "@/assets/story-ocean-ch1.jpg";
+import storyOceanCh2 from "@/assets/story-ocean-ch2.jpg";
+import storyOceanCh3 from "@/assets/story-ocean-ch3.jpg";
+import storyOceanCh4 from "@/assets/story-ocean-ch4.jpg";
+import storyGardenCover from "@/assets/story-garden-cover.jpg";
+import storyGardenCh1 from "@/assets/story-garden-ch1.jpg";
+import storyGardenCh2 from "@/assets/story-garden-ch2.jpg";
+import storyGardenCh3 from "@/assets/story-garden-ch3.jpg";
+import storyGardenCh4 from "@/assets/story-garden-ch4.jpg";
+import storyForestCover from "@/assets/story-forest-cover.jpg";
+import storyForestCh1 from "@/assets/story-forest-ch1.jpg";
+import storyForestCh2 from "@/assets/story-forest-ch2.jpg";
+import storyForestCh3 from "@/assets/story-forest-ch3.jpg";
+import storyForestCh4 from "@/assets/story-forest-ch4.jpg";
 import storyEarthHeroCover from "@/assets/story-earth-hero-cover.jpg";
 import storyEarthHeroCh1 from "@/assets/story-earth-hero-ch1.jpg";
 import storyEarthHeroCh2 from "@/assets/story-earth-hero-ch2.jpg";
@@ -285,130 +297,244 @@ export const storyContent: Story[] = [
   },
   {
     id: 4,
-    title: "The Amazing Bottle Journey",
-    description: "Follow Bella the plastic bottle on an incredible adventure through the recycling process! From the recycling bin to becoming a cozy fleece jacket, discover how everyday items can be transformed into something wonderful.",
+    title: "Ocean Rescue Mission",
+    description: "Captain Splash, the brave bottle hero, embarks on an epic quest to clean the ocean and save marine animals! Discover how plastic recycling protects our seas and transforms waste into wonderful new things.",
+    quiz: [
+      {
+        question: "Who is the hero of this story?",
+        options: ["Captain Earth", "Captain Splash", "Luna", "Moki"],
+        correctAnswer: 1
+      },
+      {
+        question: "What did Captain Splash find in the ocean?",
+        options: ["Treasure", "Fish", "Plastic pollution", "Coral"],
+        correctAnswer: 2
+      },
+      {
+        question: "Which animals did Captain Splash help?",
+        options: ["Birds and cats", "Dolphins and sea turtles", "Dogs and rabbits", "Monkeys and elephants"],
+        correctAnswer: 1
+      },
+      {
+        question: "What did Captain Splash use to clean the ocean?",
+        options: ["A net", "His hands", "Magical recycling powers", "A boat"],
+        correctAnswer: 2
+      },
+      {
+        question: "What should we use instead of plastic bottles?",
+        options: ["More plastic bottles", "Glass bottles only", "Reusable water bottles", "Nothing"],
+        correctAnswer: 2
+      }
+    ],
     pages: [
       {
-        image: bookBottleJourney,
-        text: "This is Bella, a plastic water bottle. Today is special - Bella is starting an amazing journey! After being recycled, she will become something completely new.",
-        altText: "A friendly cartoon plastic bottle with a smile"
+        image: storyOceanCover,
+        text: "Deep beneath the sparkling waves lived Captain Splash, a brave hero with a special mission. He was once just an ordinary plastic bottle, but when he was recycled and given new life, he gained amazing powers to protect the ocean and all its creatures!",
+        altText: "Captain Splash the bottle hero diving heroically into beautiful blue ocean with dolphins"
       },
       {
-        text: "Bella's adventure began when young Emma finished drinking and placed her in the blue recycling bin. 'Goodbye!' said Emma. 'I hope you become something wonderful!'",
+        text: "Captain Splash loved swimming with his friends - dolphins who did flips, sea turtles who told wise stories, colorful fish who danced in the coral reefs, and gentle whales who sang beautiful songs. The ocean was a magical place, full of life and wonder!",
       },
       {
-        text: "At the recycling center, Bella met thousands of other bottles. They rode on conveyor belts, excited about their transformation. 'Where will we go?' they wondered together.",
+        text: "But one terrible day, Captain Splash discovered something that made his heart sink. Plastic bottles, bags, and wrappers were floating everywhere in the ocean! His sea turtle friend Terry was tangled in a plastic bag and couldn't swim properly. Dolly the dolphin looked sad because the water wasn't clear anymore.",
+        image: storyOceanCh1,
+        altText: "Captain Splash discovering ocean pollution with worried sea creatures",
+        layout: "two-column-left"
       },
       {
-        image: bookBottleJourney,
-        text: "First stop: the sorting machine! Bella and her friends were separated by type and color. Clear bottles went one way, colored bottles another. It was like a plastic party!",
-        altText: "Recycling facility with sorting machines and conveyor belts"
+        text: "'This is terrible!' cried Captain Splash. 'My ocean friends are in danger! I must do something!' He remembered his special power - the ability to transform recycled materials. His bottle cap began to glow with a brilliant green light. It was time for Ocean Rescue Mission!",
       },
       {
-        text: "Next, all the bottles took a refreshing bath to get clean. They were washed thoroughly to remove labels and any leftover liquid. 'This feels nice!' giggled Bella.",
+        text: "Captain Splash raised his hands toward the sky. Beams of magical green energy shot out in all directions! The plastic waste began to glow and shimmer. Something incredible was happening - the trash was transforming! Plastic bottles turned into beautiful coral reefs. Bags became flowing sea plants. Wrappers transformed into colorful sea anemones!",
+        image: storyOceanCh2,
+        altText: "Captain Splash using magical recycling powers transforming trash into coral",
+        layout: "two-column-right"
       },
       {
-        text: "Then came the shredder - don't worry, it didn't hurt! Bella and her friends were cut into tiny pieces called flakes. These colorful flakes looked like confetti.",
+        text: "Terry the sea turtle wiggled free from the plastic that trapped him. 'I can swim again! Thank you, Captain Splash!' Dolly the dolphin leaped high out of the water with joy. Fish swam in happy circles through the crystal-clear water. The whales sang a song of celebration that echoed through the entire ocean!",
       },
       {
-        text: "The flakes were melted down and transformed into long strands, then cut into tiny pellets. These pellets are the building blocks for new products!",
+        text: "But Captain Splash knew his work wasn't finished. Cleaning up was important, but teaching others was even more important! He swam to the beach where children were playing. 'Hello, Ocean Guardians!' he called out. The children gathered around, amazed to see a talking bottle hero!",
+        image: storyOceanCh3,
+        altText: "Captain Splash teaching diverse children on sunny beach about ocean conservation",
+        layout: "two-column-left"
       },
       {
-        image: bookBottleJourney,
-        text: "Bella's pellets were sent to a factory. There, they were heated and shaped into... a brand new fleece jacket! How amazing - from bottle to clothes!",
-        altText: "Colorful fleece jacket made from recycled plastic bottles"
+        text: "'I need your help to keep our oceans clean,' said Captain Splash. 'Every plastic bottle you recycle is one less bottle in the ocean! When you use a reusable water bottle instead of a disposable one, you're protecting sea turtles like Terry. When you don't litter on the beach, you're helping dolphins like Dolly!'",
       },
       {
-        text: "Emma couldn't believe it when she learned that her new jacket was made from 25 recycled bottles - maybe even Bella! 'Thank you, recycling!' she said happily.",
+        text: "The children made promises to Captain Splash: 'We'll always throw trash in proper bins!' 'We'll use reusable bottles!' 'We'll pick up litter when we see it!' 'We'll tell our friends to protect the ocean too!' Captain Splash smiled proudly. He had created an army of young Ocean Guardians!",
       },
       {
-        text: "Bella was proud of her new life as a jacket, keeping Emma warm. She had learned that plastic bottles can be recycled many times, becoming new bottles, clothes, toys, and more!",
+        text: "Weeks passed, and something wonderful happened. Beaches became cleaner. Fewer bottles floated in the waves. More children brought reusable bottles to the beach. The ocean sparkled clearer than ever before! Captain Splash watched from the water as sea turtles swam freely, dolphins jumped joyfully, and fish danced among healthy coral reefs.",
+        image: storyOceanCh4,
+        altText: "Beautiful pristine clean ocean with happy marine life and children on beach",
+      },
+      {
+        text: "Every evening, as the sun set over the horizon, Captain Splash would swim patrol around the ocean. He knew that with thousands of children working together to recycle, reuse, and protect the seas, the ocean would stay beautiful forever. And whenever a child properly recycled a plastic bottle, Captain Splash's heart glowed a little brighter, knowing another Ocean Guardian was making a difference!",
       }
     ]
   },
   {
     id: 5,
-    title: "Compost Magic",
-    description: "Join Coco the Carrot and the Decomposer Squad as they discover the magical transformation that happens in a compost bin! Learn how food scraps become nutrient-rich soil that helps new plants grow in this delightful tale of nature's recycling.",
+    title: "The Garden Guardians",
+    description: "Enter an enchanted garden where food scraps magically transform into golden soil! Watch as the Garden Guardians show how composting creates life and helps beautiful flowers and vegetables grow.",
+    quiz: [
+      {
+        question: "Who is the main character of this story?",
+        options: ["Luna", "Coco the Carrot", "Captain Splash", "Paige"],
+        correctAnswer: 1
+      },
+      {
+        question: "What is the Decomposer Squad?",
+        options: ["A band", "Worms and microorganisms that help composting", "Garden tools", "Vegetables"],
+        correctAnswer: 1
+      },
+      {
+        question: "What do food scraps become in a compost bin?",
+        options: ["Trash", "Rich soil for plants", "Toys", "Water"],
+        correctAnswer: 1
+      },
+      {
+        question: "What did Wiggly the Worm do?",
+        options: ["Sang songs", "Helped turn food into nutritious soil", "Planted flowers", "Watered plants"],
+        correctAnswer: 1
+      },
+      {
+        question: "What grew from the compost soil?",
+        options: ["Nothing", "New vegetables and flowers", "Rocks", "More trash"],
+        correctAnswer: 1
+      }
+    ],
     pages: [
       {
-        image: bookCompostMagic,
-        text: "Meet Coco the Carrot! She ended up in a compost bin along with banana peels, apple cores, and vegetable scraps. At first, she was sad. But something magical was about to happen!",
-        altText: "Friendly cartoon carrot in a compost bin with other food scraps"
+        image: storyGardenCover,
+        text: "In a secret corner of a magical garden stood an enchanted compost bin that glowed with golden sparkles. This wasn't just any compost bin - it was home to the Garden Guardians, special friends who had the power to transform food scraps into life itself!",
+        altText: "Magical garden with animated vegetable characters around glowing compost bin"
       },
       {
-        text: "'Why are we here?' asked Coco. An old banana peel replied, 'We're going to help create new life! This is where the magic of composting happens.'",
+        text: "Meet Coco the Carrot, the bravest of the Garden Guardians! One day, after being harvested from the garden, some of Coco's friends (leftover carrot tops and veggie scraps) ended up in the magical compost bin. Coco was curious - what would happen to them?",
+        image: storyGardenCh1,
+        altText: "Coco the carrot discovering magical compost bin with other food scrap characters",
+        layout: "two-column-left"
       },
       {
-        text: "In the compost bin, Coco met the Decomposer Squad - tiny microorganisms, worms, and bugs who worked together to break down food scraps into rich soil.",
+        text: "'Don't worry, Coco!' said Ben the Banana Peel with a warm smile. 'We're not waste - we're the beginning of something wonderful! Watch what happens!' Coco peered into the compost bin and saw it glowing with a soft, golden light. 'What's making it glow?' she asked with wonder.",
       },
       {
-        image: bookCompostMagic,
-        text: "Wiggly the Worm explained, 'We eat the food scraps and turn them into castings - that's worm poop! But it's actually super nutritious soil that plants love.'",
-        altText: "Happy earthworms in dark, rich compost soil"
+        text: "'That's the Decomposer Squad at work!' explained Amy the Apple Core. 'They're tiny heroes - earthworms, friendly bacteria, helpful fungi, and busy bugs. They work day and night, breaking down food scraps and turning them into magical golden soil!' Coco watched in amazement as the squad got to work.",
+        image: storyGardenCh2,
+        altText: "Inside compost bin showing cute earthworms and microorganisms working together",
+        layout: "two-column-right"
       },
       {
-        text: "As weeks passed, Coco and her friends slowly transformed. They became darker, crumbly, and smelled like fresh forest floor. The transformation was complete!",
+        text: "Wiggly the Earthworm waved hello with a big smile. 'Hi Coco! Watch this!' He munched on vegetable scraps, and what came out was rich, dark, crumbly soil that sparkled with nutrients. 'We call these worm castings,' Wiggly explained proudly. 'Plants absolutely love them! It's like superfood for gardens!'",
       },
       {
-        text: "The compost was ready! A gardener scooped up the rich, dark soil and spread it around tomato plants, flower beds, and vegetable gardens.",
+        text: "As days and weeks passed, something incredible happened. The food scraps slowly transformed. Banana peels became darker. Apple cores broke down into tiny pieces. Vegetable scraps mixed together. The heat inside the bin helped everything break down faster. The golden glow grew brighter and brighter until finally... the transformation was complete!",
       },
       {
-        text: "Coco watched in amazement as her nutrients helped new carrots grow! 'I'm helping feed new vegetables!' she realized. 'This really is magic!'",
+        text: "'It's ready!' announced the Decomposer Squad together. 'The compost is finished!' The bin now contained beautiful, rich, dark soil that smelled like a fresh forest after rain. It was full of nutrients, minerals, and life - everything plants needed to grow big and strong.",
+        image: storyGardenCh3,
+        altText: "Gardener spreading rich compost with new vegetables and flowers growing",
+        layout: "two-column-left"
       },
       {
-        image: bookCompostMagic,
-        text: "The garden flourished with bright red tomatoes, colorful flowers, and fresh vegetables. All thanks to the magic of composting!",
-        altText: "Beautiful thriving garden with vegetables and flowers"
+        text: "The gardener opened the compost bin and gasped with joy. 'What beautiful compost!' She carefully scooped the magical soil and spread it around the garden. She sprinkled it around tomato plants, mixed it into flower beds, and added it to the vegetable patch. The plants seemed to dance with happiness!",
       },
       {
-        text: "Coco learned that food scraps don't belong in the trash. In a compost bin, they transform into something valuable. It's nature's way of recycling!",
+        text: "Within days, something magical happened! Tiny green sprouts pushed up through the soil. New carrots began to grow - bright orange and healthy! Tomatoes grew bigger and redder. Flowers bloomed in every color of the rainbow. Lettuce leaves became crisp and green. The entire garden exploded with life!",
       },
       {
-        text: "Now you know the secret! Instead of throwing away fruit and vegetable scraps, they can become compost. It's like giving back to the earth and completing the circle of life!",
+        text: "Coco watched with tears of joy as brand new baby carrots sprouted from the soil. 'Look!' she exclaimed. 'My friends from the compost bin are helping create new life! The leftover scraps aren't waste at all - they're part of the circle of life!' The Garden Guardians cheered together.",
+        image: storyGardenCh4,
+        altText: "Magnificent flourishing garden with children learning about composting",
+      },
+      {
+        text: "From that day on, Coco and the Garden Guardians taught everyone about the magic of composting. Food scraps don't belong in the trash - they belong in compost bins where they can become golden soil! Every vegetable peel, fruit core, and food scrap has the power to help new plants grow. That's the true magic of nature's recycling - life creating more life, in an endless beautiful circle!",
       }
     ]
   },
   {
     id: 6,
-    title: "Paper Friends Forever",
-    description: "Meet Paige the Paper and her recycling friends on an amazing journey from used notebook to brand new paper! Discover how recycling paper saves trees and gives every sheet a chance to tell new stories.",
+    title: "Forest Protectors",
+    description: "Join the brave Paper Warriors on their noble quest to protect the ancient forests! Learn how recycling paper saves thousands of trees and discover creative ways to give paper a second life.",
+    quiz: [
+      {
+        question: "Who is the main character?",
+        options: ["Moki", "Captain Splash", "Paige the Paper", "Luna"],
+        correctAnswer: 2
+      },
+      {
+        question: "What does recycling one ton of paper save?",
+        options: ["5 trees", "17 trees", "100 trees", "1 tree"],
+        correctAnswer: 1
+      },
+      {
+        question: "Who are Paige's paper friends?",
+        options: ["Tom and Jerry", "Ned, Carl, and Mia", "Ben and Amy", "Terry and Dolly"],
+        correctAnswer: 1
+      },
+      {
+        question: "How many times can paper be recycled?",
+        options: ["Once", "Twice", "5-7 times", "Forever"],
+        correctAnswer: 2
+      },
+      {
+        question: "What did Paige become after being recycled?",
+        options: ["A book", "Fresh printer paper", "A box", "A magazine"],
+        correctAnswer: 1
+      }
+    ],
     pages: [
       {
-        image: bookPaperFriends,
-        text: "Hi! I'm Paige the Paper. I used to be part of a big, beautiful tree in the forest. Today, I want to tell you about my incredible journey and my paper friends!",
-        altText: "Friendly cartoon paper sheet with a smile and a tree in background"
+        image: storyForestCover,
+        text: "Long ago, in an ancient forest where trees stood tall and proud for hundreds of years, there lived the Paper Warriors - brave protectors who dedicated their lives to saving trees. They had a sacred mission: to show the world that every sheet of paper recycled was another tree saved!",
+        altText: "Brave Paper Warriors protecting ancient forest with recycling shields"
       },
       {
-        text: "I started as a notebook where a student named Sam wrote stories. After the notebook was full, Sam didn't throw me away - she put me in the paper recycling bin!",
+        text: "Meet Paige the Paper! She began her life as part of a magnificent oak tree in the Whispering Woods. That tree provided homes for birds, shade for animals, and oxygen for everyone to breathe. When she became paper, Paige carried the spirit of that mighty tree with her. She was determined to honor her forest home.",
+        image: storyForestCh1,
+        altText: "Paige as notebook paper with student writing stories warmly lit classroom",
+        layout: "two-column-left"
       },
       {
-        text: "At the recycling center, I met newspaper Ned, cardboard box Carl, and magazine Mia. We were all excited to become new paper products and save trees!",
+        text: "Paige spent wonderful months as pages in a notebook where a young student named Sam wrote amazing stories, drew creative pictures, and solved math problems. Every word written on Paige felt meaningful. But when the notebook was full, Sam faced a choice - trash or recycling? Luckily, Sam knew what to do!",
       },
       {
-        image: bookPaperFriends,
-        text: "'Did you know,' said newspaper Ned, 'that recycling one ton of paper saves 17 trees?' We all cheered - we were helping save our tree friends in the forest!",
-        altText: "Various paper products happily gathered together"
+        text: "'To the recycling bin you go!' said Sam with a smile, placing Paige gently into the blue paper recycling container. 'Time for you to become something new!' Paige felt excited. Her adventure as a Paper Warrior was just beginning! She was going to help save her tree friends!",
+        image: storyForestCh2,
+        altText: "Paper characters Carl Ned and Mia riding conveyor belts at recycling facility",
+        layout: "two-column-right"
       },
       {
-        text: "First, we were mixed with water in a huge mixer called a pulper. We swirled around and around, becoming a mushy mixture called pulp. It tickled!",
+        text: "At the recycling facility, Paige met her Paper Warrior teammates! There was Ned the Newspaper, who had spent weeks delivering news to families. Carl the Cardboard Box, who had traveled across the country carrying packages. And Mia the Magazine, who had beautiful photos and stories. Together, they were the Paper Warrior squad!",
       },
       {
-        text: "The pulp was cleaned and any staples or plastic were removed. Then it was pressed and rolled flat on giant rollers. We were becoming new paper!",
+        text: "'Welcome to the team, Paige!' said Ned cheerfully. 'Did you know that recycling just one ton of paper saves 17 trees from being cut down?' Paige's heart swelled with pride. 'We also save 7,000 gallons of water and enough energy to power a home for six months!' added Carl. 'Every sheet of recycled paper makes a difference!' chirped Mia.",
       },
       {
-        text: "I transformed into fresh printer paper! Now I live in a classroom where children draw pictures and write stories. My journey continues!",
+        text: "The transformation began! First, the Paper Warriors were mixed with water in a huge tank called a pulper. They swirled and danced together, breaking down into tiny fibers. 'This feels like a paper pool party!' laughed Paige. The mixture became pulp - a thick, mushy blend that held all their recycled fibers.",
       },
       {
-        image: bookPaperFriends,
-        text: "Ned became a new newspaper, Carl turned into a pizza box, and Mia became a beautiful greeting card. We all found new purposes!",
-        altText: "New paper products made from recycled materials"
+        text: "Next came the cleaning process. Big machines removed any staples, tape, or plastic that didn't belong. The pulp was washed and screened to make sure only pure paper fibers remained. 'We're getting ready for our transformation!' said Ned excitedly. The pulp was then spread onto giant screens and pressed flat.",
+        image: storyForestCh3,
+        altText: "Magical transformation of paper into new products with sparkles and joy",
+        layout: "two-column-left"
       },
       {
-        text: "The best part? Paper can be recycled 5-7 times! Each time we're recycled, we save trees, water, and energy. We're paper friends forever, helping the planet!",
+        text: "As the pulp dried and rolled through huge machines, something magical happened! Paige transformed into bright white printer paper - perfect for a classroom! Ned became a fresh newspaper ready to deliver today's stories. Carl turned into a sturdy pizza box that would keep food warm. Mia became a beautiful greeting card that would make someone smile!",
       },
       {
-        text: "Remember: every piece of paper you recycle makes a difference. You're not just throwing away paper - you're giving it a chance to become something wonderful again!",
+        text: "'We did it!' they all cheered. 'We've been recycled!' But the best part? Their journey wasn't over. Paper can be recycled 5 to 7 times! Each time they were recycled, they saved more trees, conserved more water, and used less energy. The Paper Warriors were fulfilling their sacred mission again and again!",
+      },
+      {
+        text: "Paige now lived in a school where children wrote stories and drew pictures on her fresh white surface. Every time she looked at their happy faces, she thought about the trees standing tall in the Whispering Woods. Because Paige and her Paper Warrior friends were recycled, those trees got to keep growing, providing homes for animals and clean air for everyone.",
+        image: storyForestCh4,
+        altText: "Protected ancient forest with children using recycled paper happily",
+      },
+      {
+        text: "The ancient forest remained safe and protected, thanks to the brave Paper Warriors and children like Sam who chose to recycle. Every sheet of paper that gets recycled instead of thrown away is a victory for the forests! So remember, young protectors: when you recycle paper, you become a Paper Warrior too. You're not just recycling - you're protecting forests, saving trees, and giving paper new life. Together, we can keep our forests standing tall and strong for generations to come!",
       }
     ]
   }
