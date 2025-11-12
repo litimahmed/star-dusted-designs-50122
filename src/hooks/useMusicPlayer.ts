@@ -19,11 +19,7 @@ export const useMusicPlayer = (autoPlay: boolean = false) => {
         // This will need to be populated manually or via a build script
         // For now, we'll check for common song filenames
         const potentialSongs = [
-          'song1.mp3',
-          'song2.mp3',
-          'song3.mp3',
-          'background-music.mp3',
-          'story-theme.mp3',
+          'Fairytale.mp3',
         ];
 
         const availableSongs: Song[] = [];
