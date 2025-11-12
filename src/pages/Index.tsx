@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import InteractiveFeature from "@/components/InteractiveFeature";
 import AboutUs from "@/components/AboutUs";
+import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import BookCard from "@/components/BookCard";
 import DecorativeBlobs from "@/components/DecorativeBlobs";
@@ -125,6 +126,8 @@ const Index = () => {
           </div>
         </div>
       </section>
+      
+      <ContactSection />
       
       <Footer />
     </div>
