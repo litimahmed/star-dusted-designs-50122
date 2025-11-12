@@ -6,11 +6,23 @@ import { toast } from "sonner";
 import { storyContent } from "@/data/storyContent";
 import StoryRating from "@/components/StoryRating";
 import StoryQuiz from "@/components/StoryQuiz";
+import MusicPlayer from "@/components/MusicPlayer";
+import { useMusicPlayer } from "@/hooks/useMusicPlayer";
 
 const StoryReader = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const [isNarratorActive, setIsNarratorActive] = useState(false);
+  
+  const {
+    songs,
+    currentSong,
+    isPlaying,
+    volume,
+    toggle: toggleMusic,
+    selectSong,
+    setVolume,
+  } = useMusicPlayer(true);
 
   const story = storyContent.find((s) => s.id === Number(id));
 
@@ -81,6 +93,16 @@ const StoryReader = () => {
             </Button>
 
             <div className="flex items-center gap-2">
+              <MusicPlayer
+                songs={songs}
+                currentSong={currentSong}
+                isPlaying={isPlaying}
+                volume={volume}
+                onTogglePlay={toggleMusic}
+                onSelectSong={selectSong}
+                onVolumeChange={setVolume}
+              />
+
               <Button
                 variant={isNarratorActive ? "default" : "outline"}
                 size="sm"
