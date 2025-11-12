@@ -9,7 +9,7 @@ import DecorativeBlobs from "@/components/DecorativeBlobs";
 import { toast } from "sonner";
 
 // Import book cover images
-import bookRecyclingHeroes from "@/assets/book-recycling-heroes.jpg";
+import bookEarthGuardian from "@/assets/book-earth-guardian.jpg";
 import bookEarthHero from "@/assets/book-earth-hero.jpg";
 import bookJungleRecycling from "@/assets/book-jungle-recycling.jpg";
 import bookOceanRescue from "@/assets/book-ocean-rescue.jpg";
@@ -20,12 +20,12 @@ const Index = () => {
   const books = [
     {
       id: 1,
-      title: "Recycling Heroes Unite",
-      image: bookRecyclingHeroes,
+      title: "Luna's Earth Guardian Mission",
+      image: bookEarthGuardian,
       color: "eco-blue",
       readingTime: "Reading 5 min.",
       category: "Superhero adventure",
-      description: "When the city is drowning in waste, three magical recycling bins with special powers team up to save the day! Join the blue, green, and red heroes as they teach everyone the importance of proper sorting and recycling.",
+      description: "When Luna discovers her magical Earth powers, she must fly through the city transforming trash into beautiful nature! Follow her incredible journey as she learns that every small action can create amazing changes for our planet.",
     },
     {
       id: 2,

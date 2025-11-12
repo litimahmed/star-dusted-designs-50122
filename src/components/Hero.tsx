@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { BookOpen } from "lucide-react";
-import heroImage from "@/assets/hero-eco-kids.jpg";
+import heroImage from "@/assets/hero-eco-kids-new.jpg";
 import DecorativeBlobs from "@/components/DecorativeBlobs";
 
 const Hero = () => {
