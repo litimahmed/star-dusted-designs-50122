@@ -1,15 +1,13 @@
-import bookSortingBins from "@/assets/book-sorting-bins.jpg";
+import storyLunaCover from "@/assets/story-luna-cover.jpg";
+import storyLunaCh1 from "@/assets/story-luna-ch1.jpg";
+import storyLunaCh2 from "@/assets/story-luna-ch2.jpg";
+import storyLunaCh3 from "@/assets/story-luna-ch3.jpg";
+import storyLunaCh4 from "@/assets/story-luna-ch4.jpg";
 import bookEarthHero from "@/assets/book-earth-hero.jpg";
 import bookJungleRecycling from "@/assets/book-jungle-recycling.jpg";
 import bookBottleJourney from "@/assets/book-bottle-journey.jpg";
 import bookCompostMagic from "@/assets/book-compost-magic.jpg";
 import bookPaperFriends from "@/assets/book-paper-friends.jpg";
-import storySortingBinsCover from "@/assets/story-sorting-bins-cover.jpg";
-import storySortingBinsCh1 from "@/assets/story-sorting-bins-ch1.jpg";
-import storySortingBinsCh2 from "@/assets/story-sorting-bins-ch2.jpg";
-import storySortingBinsCh3 from "@/assets/story-sorting-bins-ch3.jpg";
-import storySortingBinsCh4 from "@/assets/story-sorting-bins-ch4.jpg";
-import storySortingBinsCh5 from "@/assets/story-sorting-bins-ch5.jpg";
 import storyEarthHeroCover from "@/assets/story-earth-hero-cover.jpg";
 import storyEarthHeroCh1 from "@/assets/story-earth-hero-ch1.jpg";
 import storyEarthHeroCh2 from "@/assets/story-earth-hero-ch2.jpg";
@@ -46,72 +44,81 @@ export interface Story {
 export const storyContent: Story[] = [
   {
     id: 1,
-    title: "The Sorting Bins Adventure",
-    description: "Join Lily on a magical journey as three friendly recycling bins come to life and teach her the secrets of sorting waste! A heartwarming tale about teamwork, responsibility, and keeping our planet clean through the power of recycling.",
+    title: "Luna's Earth Guardian Mission",
+    description: "When Luna discovers her magical Earth powers, she must fly through the city transforming trash into beautiful nature! Follow her incredible journey as she learns that every small action can create amazing changes for our planet.",
     quiz: [
       {
-        question: "What is the main character's name?",
-        options: ["Lily", "Emma", "Maya", "Sarah"],
-        correctAnswer: 0
+        question: "What is Luna's superpower?",
+        options: ["Super speed", "Transforming trash into nature", "Flying only", "Invisibility"],
+        correctAnswer: 1
       },
       {
-        question: "What color is the bin for paper?",
-        options: ["Green", "Yellow", "Blue", "Red"],
+        question: "What color is Luna's Earth Guardian cape?",
+        options: ["Red", "Yellow", "Blue and green", "Purple"],
         correctAnswer: 2
       },
       {
-        question: "What does the green bin collect?",
-        options: ["Plastic bottles", "Organic waste like food scraps", "Paper and cardboard", "Metal cans"],
-        correctAnswer: 1
+        question: "Where did Luna first discover her powers?",
+        options: ["At school", "In the park", "In her bedroom while recycling", "At the beach"],
+        correctAnswer: 2
       },
       {
-        question: "How many recycling bins came to life?",
-        options: ["Two", "Three", "Four", "Five"],
-        correctAnswer: 1
+        question: "What did Luna transform trash into?",
+        options: ["Toys", "Food", "Beautiful flowers and trees", "Buildings"],
+        correctAnswer: 2
       },
       {
-        question: "What happened at the end of the story?",
-        options: ["The playground closed", "All the children learned to recycle", "The bins disappeared", "It started raining"],
+        question: "What did Luna teach children at the end?",
+        options: ["How to fly", "That everyone has the power to help Earth", "Magic spells", "How to build things"],
         correctAnswer: 1
       }
     ],
     pages: [
       {
-        image: storySortingBinsCover,
-        text: "In a sunny playground filled with laughter and joy, three special friends lived together. They weren't ordinary playground equipment – they were magical recycling bins! Meet Benny the Blue Bin, who loved paper, Greta the Green Bin, who adored organic waste, and Yara the Yellow Bin, who collected plastic treasures.",
-        altText: "Three friendly colorful recycling bins with smiling faces in a sunny playground"
+        image: storyLunaCover,
+        text: "In a bustling city where skyscrapers touched the clouds, lived a brave and curious girl named Luna. She loved nature, animals, and everything green. But Luna had a secret - a magical secret that would change everything. She was chosen by Earth itself to become its guardian!",
+        altText: "Luna flying through vibrant city with magical glowing hands transforming trash to nature"
       },
       {
-        text: "One bright morning, a young girl named Lily walked into the playground after her snack time. She looked at the pile of trash in her hands – a juice box, a banana peel, and a crumpled paper napkin – and froze. 'I have no idea where these go,' she whispered, looking confused at the three colorful bins standing in a row.",
-        image: storySortingBinsCh1,
-        altText: "Young girl Lily standing confused with mixed trash in her hands",
+        text: "It all began on a sunny afternoon. Luna was in her room, carefully sorting recyclables into different bins - plastic bottles in one, paper in another. As she held a plastic bottle, something incredible happened! Her hands began to glow with shimmering green and blue light. Sparkles danced around her fingers like tiny stars!",
+        image: storyLunaCh1,
+        altText: "Young Luna discovering magical glowing powers while holding bottle in bedroom",
         layout: "two-column-left"
       },
       {
-        text: "Suddenly, something magical happened! The three bins began to glow and shimmer. One by one, they came to life! Benny the Blue Bin was the first to speak. 'Hello, Lily!' he said with a cheerful voice. 'Don't worry! We're here to help you learn the wonderful world of sorting waste. Each of us has a special job!'",
-        image: storySortingBinsCh2,
-        altText: "Three magical animated recycling bins with friendly faces introducing themselves",
+        text: "'What... what's happening?' Luna gasped. The light grew brighter and warmer. A gentle voice seemed to whisper from everywhere and nowhere at once: 'Luna, you have been chosen. Your love for our planet has awakened a special gift. You are now Earth's Guardian. Use your powers to transform waste into wonder, to heal nature, and to inspire others!'",
+      },
+      {
+        text: "Luna felt a surge of energy flow through her. Her clothes transformed into a beautiful superhero costume with a flowing cape that shimmered like the Earth seen from space - swirls of blue oceans and green forests. On her chest glowed a golden Earth emblem. She was no longer just Luna - she was the Earth Guardian!",
+        image: storyLunaCh2,
+        altText: "Luna in Earth Guardian costume flying over city with green energy powers",
         layout: "two-column-right"
       },
       {
-        text: "Greta the Green Bin wiggled excitedly. 'I collect all the yummy organic waste – banana peels, apple cores, vegetable scraps, and grass clippings! We turn them into nutritious compost that helps plants grow big and strong.' Yara the Yellow Bin chimed in, 'And I take care of plastic bottles, containers, and packaging! We can recycle them into new products.' Benny added proudly, 'Paper, cardboard, and newspapers belong with me! Together, we keep waste out of landfills and help save our beautiful planet.'",
+        text: "Luna flew out of her window, soaring high above the city. Below her, she could see piles of trash on streets, plastic bags stuck in trees, and litter scattered in parks. 'Time to get to work!' she declared. Luna swooped down and raised her glowing hands. Beams of brilliant green energy shot toward the garbage!",
       },
       {
-        text: "Lily's eyes sparkled with understanding. 'Oh, I get it now!' she exclaimed. She carefully placed the paper napkin in Benny's blue opening, the banana peel in Greta's green mouth, and the juice box's plastic wrapping in Yara's yellow slot. The bins cheered with joy! 'You did it perfectly, Lily! You're a natural recycling champion!'",
-        image: storySortingBinsCh3,
-        altText: "Lily happily sorting different items into the correct recycling bins",
+        text: "Magic happened right before everyone's eyes! Plastic bottles transformed into beautiful blooming sunflowers. Aluminum cans became sturdy trees with spreading branches. Paper waste turned into colorful bushes with singing birds. The dull, gray streets burst into life with gardens of every color! People stopped and stared in amazement. Children pointed and cheered!",
+      },
+      {
+        text: "But Luna knew her mission wasn't complete. Cleaning up was important, but teaching others was even more powerful. She landed in the city park where children were playing. 'Hello, Earth Heroes!' Luna called out with a warm smile. The children gathered around her, their eyes sparkling with curiosity and wonder.",
+        image: storyLunaCh3,
+        altText: "Luna teaching excited diverse children about recycling with colorful bins",
         layout: "two-column-left"
       },
       {
-        text: "Word spread quickly around the playground about the magical talking bins! Soon, children from all over came running to meet Benny, Greta, and Yara. The bins patiently taught each child which items belonged where. They made up fun rhymes: 'Paper in blue, organics in green, plastic in yellow – keep the planet clean!' The playground buzzed with excitement as everyone practiced sorting.",
-        image: storySortingBinsCh4,
-        altText: "Group of diverse children learning to use recycling bins correctly",
-        layout: "two-column-right"
+        text: "'I have amazing news for you,' Luna said, kneeling down to their level. 'You don't need magical powers to be a hero for Earth. Every time you recycle, reuse something, or pick up litter, you're using YOUR superpower! You're helping our beautiful planet stay healthy and clean for everyone - people, animals, and plants!'",
       },
       {
-        text: "From that magical day forward, the playground became the cleanest, happiest place in town. Children always remembered to sort their waste correctly, and they even taught their families at home. The three bins stood proudly, knowing they had made a real difference. And sometimes, when no adults were watching, you could still hear them whispering words of encouragement to the children: 'Great job! You're helping save the Earth!'",
-        image: storySortingBinsCh5,
-        altText: "Beautiful clean playground with happy children and Earth smiling in the sky",
+        text: "Luna showed them how to sort recyclables properly: 'Blue bins for paper and cardboard - they become new notebooks! Yellow bins for plastic - they turn into playground equipment! Green bins for food scraps - they become rich soil for gardens!' The children practiced sorting, excited to use their new Earth-saving knowledge.",
+      },
+      {
+        text: "As days passed, something wonderful happened. Children all over the city started taking care of Earth. They brought reusable bags to stores, used refillable water bottles, and set up recycling stations at school. Their parents noticed and joined in too! The entire city became cleaner, greener, and happier.",
+        image: storyLunaCh4,
+        altText: "Beautiful clean city with diverse children caring for environment and glowing Earth",
+      },
+      {
+        text: "Luna watched from above, her heart filled with joy and pride. The city sparkled with parks full of flowers, clean streets lined with trees, and happy people working together. She realized that her real superpower wasn't just transforming trash - it was inspiring others to care. And now, thousands of Earth Guardians were protecting the planet, one small action at a time. The Earth glowed brighter in the sky, as if smiling down on all its brave young heroes!",
       }
     ]
   },
