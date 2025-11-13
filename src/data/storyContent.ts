@@ -32,6 +32,17 @@ import storyEarthHeroCh8 from "@/assets/story-earth-hero-ch8.jpg";
 import storyEarthHeroCh9 from "@/assets/story-earth-hero-ch9.jpg";
 import storyEarthHeroCh10 from "@/assets/story-earth-hero-ch10.jpg";
 import storyEarthHeroCh11 from "@/assets/story-earth-hero-ch11.jpg";
+import storyEarthHeroCh12 from "@/assets/story-earth-hero-ch12.jpg";
+import storyEarthHeroCh13 from "@/assets/story-earth-hero-ch13.jpg";
+import storyEarthHeroCh14 from "@/assets/story-earth-hero-ch14.jpg";
+import storyEarthHeroCh15 from "@/assets/story-earth-hero-ch15.jpg";
+import storyEarthHeroCh16 from "@/assets/story-earth-hero-ch16.jpg";
+import storyEarthHeroCh17 from "@/assets/story-earth-hero-ch17.jpg";
+import storyEarthHeroCh18 from "@/assets/story-earth-hero-ch18.jpg";
+import storyEarthHeroCh19 from "@/assets/story-earth-hero-ch19.jpg";
+import storyEarthHeroCh20 from "@/assets/story-earth-hero-ch20.jpg";
+import storyEarthHeroCh21 from "@/assets/story-earth-hero-ch21.jpg";
+import storyEarthHeroCh22 from "@/assets/story-earth-hero-ch22.jpg";
 import storyJungleCover from "@/assets/story-jungle-cover.jpg";
 import storyJungleCh1 from "@/assets/story-jungle-ch1.jpg";
 import storyJungleCh2 from "@/assets/story-jungle-ch2.jpg";
@@ -280,7 +291,79 @@ export const storyContent: Story[] = [
         altText: "Eddie in normal clothes with glowing Earth emblem and children friends at sunset",
       },
       {
-        text: "Eddie smiled, knowing that the real power wasn't just in his recycling ray. The real power was in teaching others to care. Now, thousands of Earth Heroes were protecting the planet, one small action at a time. The Earth glowed brighter in the sky, knowing it had millions of heroes looking after it. And whenever someone properly recycled something, somewhere in the world, Captain Earth's emblem glowed a little brighter. The planet was in good hands – the hands of heroes like you!",
+        text: "Eddie smiled, knowing that the real power wasn't just in his recycling ray. The real power was in teaching others to care. Now, thousands of Earth Heroes were protecting the planet, one small action at a time.",
+      },
+      {
+        text: "As years passed, Eddie grew from a young boy into a teenager, and his mission evolved. At fifteen, Captain Earth enrolled in the University of Environmental Sciences, where he studied advanced recycling technologies and sustainable solutions. He learned about renewable energy, carbon footprints, and how to create a truly circular economy.",
+        image: storyEarthHeroCh12,
+        altText: "Teenage Captain Earth studying environmental science with holographic displays",
+        layout: "two-column-left"
+      },
+      {
+        text: "Captain Earth didn't just study – he inspired. He organized the first International Youth Environmental Summit, bringing together thousands of young people from every corner of the world. Together, they shared ideas, created solutions, and formed a global network of Earth Heroes working to protect the planet.",
+        image: storyEarthHeroCh13,
+        altText: "Teenage Captain Earth teaching at environmental festival with families",
+        layout: "two-column-right"
+      },
+      {
+        text: "One of Captain Earth's greatest missions came when he partnered with the United Nations. They launched the Million Trees Initiative, where Captain Earth flew across continents, using his powers to restore devastated forests. Within months, barren landscapes transformed into thriving green ecosystems, providing homes for countless animals and producing fresh oxygen for the world.",
+        image: storyEarthHeroCh14,
+        altText: "Captain Earth planting trees and restoring forests with green energy",
+        layout: "two-column-left"
+      },
+      {
+        text: "At seventeen, Captain Earth addressed world leaders at the Global Climate Summit. 'Every generation has a defining moment,' he told presidents and prime ministers. 'Ours is now. We have the knowledge, the technology, and the will to save our planet. The question isn't can we do it – it's will we choose to?' His words inspired nations to commit to bold new environmental policies.",
+        image: storyEarthHeroCh15,
+        altText: "Young Captain Earth speaking at international summit with world leaders",
+        layout: "two-column-right"
+      },
+      {
+        text: "Captain Earth also assembled a team of brilliant young scientists and engineers. Together, they developed revolutionary recycling technology that could break down plastics into their basic molecules and rebuild them into anything needed – from building materials to medical equipment. This breakthrough changed everything!",
+        image: storyEarthHeroCh16,
+        altText: "Captain Earth working with scientists in research facility",
+        layout: "two-column-left"
+      },
+      {
+        text: "Now eighteen years old, Captain Earth stood before a crowd of a hundred thousand young activists at the World Youth Environmental Rally. 'Every small action matters,' he declared. 'When I was eight, I started by sorting recyclables in my bedroom. Now look at what we've accomplished together! You don't need superpowers to be a hero – you just need to care!'",
+        image: storyEarthHeroCh17,
+        altText: "Young adult Captain Earth inspiring massive crowd at university campus",
+        layout: "two-column-right"
+      },
+      {
+        text: "Captain Earth's missions reached beyond Earth itself. He ventured into space to tackle the growing problem of space debris, using his recycling powers to transform defunct satellites and rocket parts into materials for the International Space Station. Even in the cosmos, he was making a difference!",
+        image: storyEarthHeroCh18,
+        altText: "Captain Earth cleaning space debris near satellites in orbit",
+        layout: "two-column-left"
+      },
+      {
+        text: "At nineteen, Captain Earth witnessed the fruits of a decade of hard work. The Global Recycling Network he helped establish connected every major city on Earth. Zero-waste communities flourished. Ocean plastic had decreased by 80%. Carbon emissions were dropping dramatically. The planet was healing, and it was a global effort.",
+        image: storyEarthHeroCh19,
+        altText: "Captain Earth presenting at global conference with world map display",
+        layout: "two-column-right"
+      },
+      {
+        text: "Captain Earth created the Earth Heroes Academy, training the next generation of environmental leaders. Young people from every nation came to learn, not just about recycling and conservation, but about hope, determination, and the power of collective action. The movement had become unstoppable.",
+        image: storyEarthHeroCh20,
+        altText: "Captain Earth with diverse young environmental leaders from around world",
+        layout: "two-column-left"
+      },
+      {
+        text: "Now twenty years old, Captain Earth flew high above the transformed world. Solar farms stretched across deserts, wind turbines spun gracefully on hillsides, cities bloomed with green roofs and vertical gardens. The oceans sparkled with life, forests thrived, and the air was crystal clear. The planet Earth glowed with vitality and hope.",
+        image: storyEarthHeroCh21,
+        altText: "Captain Earth flying over beautiful sustainable landscape with renewable energy",
+        layout: "two-column-right"
+      },
+      {
+        text: "That evening, Eddie stood in a park surrounded by children and families – no cape, no costume, just a young man who had dedicated his life to protecting the planet. His Earth emblem glowed softly beneath his shirt. 'I started this journey as Captain Earth,' he told them, 'but I learned that every single person can be a hero. You don't need special powers – you already have everything you need right here.' He pointed to their hearts.",
+        image: storyEarthHeroCh22,
+        altText: "Eddie in normal clothes surrounded by children and families at sunset",
+        layout: "two-column-left"
+      },
+      {
+        text: "The children smiled up at him, their eyes bright with determination. One little girl, no older than Eddie had been when his journey began, raised her hand. 'I'm going to be an Earth Hero too!' she announced proudly. Eddie knelt down beside her. 'You already are,' he said warmly. 'Every time you recycle, save water, or teach someone else to care, you're using your superpowers. The planet needs heroes like you.'",
+      },
+      {
+        text: "As the sun set, painting the sky in brilliant colors, Eddie looked around at the thriving, sustainable world they had built together. The transformation hadn't happened overnight, and it hadn't been the work of one hero – it had been the combined effort of millions of people who chose to care. The Earth emblem on Eddie's chest glowed one final time, bright and proud, before fading into a gentle shimmer. The planet was safe, protected by an entire generation of heroes. And the best part? This was just the beginning. The future of Earth was in the hands of millions of heroes like you – heroes who choose every single day to make a difference. Will you join them?",
       }
     ]
   },
