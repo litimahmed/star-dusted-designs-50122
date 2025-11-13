@@ -25,6 +25,13 @@ import storyEarthHeroCh1 from "@/assets/story-earth-hero-ch1.jpg";
 import storyEarthHeroCh2 from "@/assets/story-earth-hero-ch2.jpg";
 import storyEarthHeroCh3 from "@/assets/story-earth-hero-ch3.jpg";
 import storyEarthHeroCh4 from "@/assets/story-earth-hero-ch4.jpg";
+import storyEarthHeroCh5 from "@/assets/story-earth-hero-ch5.jpg";
+import storyEarthHeroCh6 from "@/assets/story-earth-hero-ch6.jpg";
+import storyEarthHeroCh7 from "@/assets/story-earth-hero-ch7.jpg";
+import storyEarthHeroCh8 from "@/assets/story-earth-hero-ch8.jpg";
+import storyEarthHeroCh9 from "@/assets/story-earth-hero-ch9.jpg";
+import storyEarthHeroCh10 from "@/assets/story-earth-hero-ch10.jpg";
+import storyEarthHeroCh11 from "@/assets/story-earth-hero-ch11.jpg";
 import storyJungleCover from "@/assets/story-jungle-cover.jpg";
 import storyJungleCh1 from "@/assets/story-jungle-ch1.jpg";
 import storyJungleCh2 from "@/assets/story-jungle-ch2.jpg";
@@ -172,46 +179,108 @@ export const storyContent: Story[] = [
         altText: "Captain Earth superhero with green cape and Earth emblem flying over colorful city"
       },
       {
-        text: "Eddie's extraordinary journey began on an ordinary Tuesday afternoon. He was cleaning up after lunch at home when something magical happened. As he carefully sorted the plastic bottles, paper napkins, and aluminum cans into the right recycling bins, a warm golden glow surrounded his hands. Suddenly, sparkles of green and blue light danced around the recyclables!",
+        text: "Eddie's extraordinary journey began on an ordinary Tuesday afternoon. He was cleaning up after lunch at home when something magical happened. As he carefully sorted the plastic bottles, paper napkins, and aluminum cans into the right recycling bins, a warm golden glow surrounded his hands.",
         image: storyEarthHeroCh1,
-        altText: "Young Eddie discovering magical glowing recycling powers in his bedroom",
+        altText: "Young Eddie discovering magical glowing recycling powers in bedroom",
         layout: "two-column-left"
       },
       {
-        text: "'What's happening?' Eddie gasped, watching in amazement as the glow grew brighter. A gentle voice seemed to whisper from the Earth itself: 'You have been chosen, Eddie. You have shown you care about our planet. Now you have the power to protect it!' In that moment, Eddie understood his calling. He would become Captain Earth, defender of the environment!",
+        text: "Suddenly, sparkles of green and blue light danced around the recyclables! 'What's happening?' Eddie gasped, watching in amazement as the glow grew brighter. A gentle voice seemed to whisper from the Earth itself: 'You have been chosen, Eddie. You have shown you care about our planet. Now you have the power to protect it!'",
       },
       {
-        text: "With his flowing green cape (made from recycled materials, of course!) and the proud Earth emblem shining on his chest, Captain Earth soared through the sky. His mission was clear: to clean up pollution and teach everyone about the superpowers of recycling. His first stop? The beautiful blue ocean that was crying for help.",
+        text: "In that moment, Eddie understood his calling. He would become Captain Earth, defender of the environment! With his flowing green cape made from recycled materials and the proud Earth emblem shining on his chest, Captain Earth soared through the sky for the first time. His mission was clear: to clean up pollution and teach everyone about the superpowers of recycling.",
         image: storyEarthHeroCh2,
         altText: "Captain Earth using recycling powers to clean ocean with happy marine animals",
         layout: "two-column-right"
       },
       {
-        text: "At the beach, Captain Earth discovered plastic bottles, bags, and wrappers floating in the waves. Sea turtles, dolphins, and fish were struggling, trapped by the trash. 'Don't worry, friends!' Captain Earth called out. 'I'm here to help!' He raised his hands, and his amazing recycling ray shot beams of shimmering green light. Like magic, the plastic garbage began transforming!",
+        text: "His first stop was the beautiful blue ocean that was crying for help. At the beach, Captain Earth discovered plastic bottles, bags, and wrappers floating in the waves. Sea turtles, dolphins, and fish were struggling, trapped by the trash. 'Don't worry, friends!' Captain Earth called out. 'I'm here to help!'",
       },
       {
-        text: "The plastic bottles became sturdy park benches. The bags turned into colorful playground equipment. The wrappers transformed into beautiful planters for flowers. The ocean sparkled clean and clear again! The sea turtles did happy flips, and the dolphins jumped for joy. 'Thank you, Captain Earth!' they seemed to say with their cheerful sounds.",
+        text: "He raised his hands, and his amazing recycling ray shot beams of shimmering green light. Like magic, the plastic garbage began transforming! The plastic bottles became sturdy park benches. The bags turned into colorful playground equipment. The wrappers transformed into beautiful planters for flowers.",
       },
       {
-        text: "But Captain Earth knew that cleaning up wasn't enough – he needed to teach others how to be heroes too! The next morning, he flew to Sunnydale Elementary School (changing back to regular Eddie first, of course). During recess, he transformed into Captain Earth and landed in the playground. Children gathered around, their eyes wide with wonder and excitement!",
+        text: "The ocean sparkled clean and clear again! The sea turtles did happy flips, and the dolphins jumped for joy. 'Thank you, Captain Earth!' they seemed to say with their cheerful sounds. But Captain Earth knew that cleaning up wasn't enough – he needed to teach others how to be heroes too!",
         image: storyEarthHeroCh3,
-        altText: "Captain Earth teaching diverse excited children in bright classroom",
+        altText: "Captain Earth teaching diverse excited children in classroom",
         layout: "two-column-left"
       },
       {
-        text: "'Hello, Earth Heroes in training!' Captain Earth announced with a big smile. 'I have amazing news – every single one of you has superpowers too! You can help save our planet!' He taught them the three magic words: Reduce, Reuse, and Recycle. 'When you use less, reuse what you have, and recycle what you're done with, you're using your environmental superpowers!'",
+        text: "The next morning, Captain Earth flew to Sunnydale Elementary School. During recess, he landed in the playground. Children gathered around, their eyes wide with wonder and excitement! 'Hello, Earth Heroes in training!' Captain Earth announced with a big smile. 'I have amazing news – every single one of you has superpowers too!'",
       },
       {
-        text: "The children learned to bring reusable water bottles instead of disposable ones. They discovered how to pack lunches in containers instead of plastic bags. Captain Earth showed them which items go in which recycling bins – blue for paper, yellow for plastic, and green for compost. 'Remember,' he said, 'every can you recycle, every bottle you reuse, makes you a superhero for Earth!'",
+        text: "He taught them the three magic words: Reduce, Reuse, and Recycle. 'When you use less, reuse what you have, and recycle what you're done with, you're using your environmental superpowers!' The children learned to bring reusable water bottles instead of disposable ones. They discovered how to pack lunches in containers instead of plastic bags.",
       },
       {
-        text: "As the weeks went by, something wonderful happened. Children all around the world began using their environmental superpowers! They wore invisible capes made of responsibility, kindness, and care. They picked up litter in parks. They reminded their parents to recycle. They turned off lights to save energy. They became Junior Earth Heroes!",
+        text: "But one day, as Captain Earth flew over the city, he noticed something terrible. Memorial Park, once the city's most beautiful green space, was now covered in mountains of trash. Dark clouds gathered overhead. This was his biggest challenge yet!",
         image: storyEarthHeroCh4,
-        altText: "Diverse children as Junior Earth Heroes in beautiful clean park with nature",
+        altText: "Captain Earth flying over polluted park with trash and dark clouds",
         layout: "two-column-right"
       },
       {
-        text: "Captain Earth watched from the sky as neighborhoods got cleaner, oceans got clearer, and more animals could live safely. He smiled, knowing that the real superpower wasn't his recycling ray – it was the power of many children working together to care for the planet. And whenever someone properly recycled something, somewhere in the world, Captain Earth's emblem glowed a little brighter, knowing another Earth Hero was making a difference!",
+        text: "'This looks like a job for Captain Earth!' he declared, landing in the park. Aluminum cans, plastic bags, glass bottles, and paper waste were scattered everywhere. The playground was buried under garbage. The beautiful flowers were hidden beneath piles of litter. The birds had stopped singing.",
+      },
+      {
+        text: "Captain Earth took a deep breath and raised both hands high into the sky. Green energy beams burst from his palms like brilliant fireworks! The trash began to swirl and spin in the air, sorting itself into different categories. Paper with paper, plastic with plastic, glass with glass, metal with metal!",
+        image: storyEarthHeroCh5,
+        altText: "Captain Earth using powerful green energy to transform trash into gardens",
+        layout: "two-column-left"
+      },
+      {
+        text: "Then the real magic happened! The sorted recyclables began transforming into wonderful new things. Old newspapers became cozy bird houses. Plastic bottles turned into beautiful flower beds. Glass jars became sparkling garden lights. Aluminum cans transformed into benches and play equipment. The park burst back to life!",
+      },
+      {
+        text: "Flowers bloomed in every color of the rainbow. Trees stood tall and proud again. Birds returned, singing their happiest songs. Butterflies danced through the air. The sun broke through the dark clouds, bathing everything in golden light. Memorial Park was more beautiful than ever before!",
+      },
+      {
+        text: "News of Captain Earth's amazing feat spread throughout the city. Soon, children everywhere wanted to become Earth Heroes too! They formed the Junior Earth Heroes club, wearing special green and blue badges. They held meetings every week to plan new ways to help the environment.",
+        image: storyEarthHeroCh6,
+        altText: "Diverse children as Junior Earth Heroes with capes in beautiful park",
+        layout: "two-column-right"
+      },
+      {
+        text: "The Junior Earth Heroes picked up litter in parks every Saturday. They started composting programs in their schools. They organized neighborhood recycling drives. They planted trees and created butterfly gardens. Each child discovered their own special way to help the planet.",
+      },
+      {
+        text: "Captain Earth was so proud of the Junior Earth Heroes that he decided to meet with the city's leaders. He flew to City Hall where the mayor and other important people worked. 'We need to make recycling easier for everyone!' Captain Earth told them. 'Let's create a city-wide program!'",
+        image: storyEarthHeroCh7,
+        altText: "Captain Earth meeting with mayor and leaders at town hall",
+        layout: "two-column-left"
+      },
+      {
+        text: "The mayor loved the idea! Soon, colorful recycling bins appeared on every street corner – blue for paper, yellow for plastic, green for compost, and gray for glass and metal. Special recycling trucks came to collect the sorted materials. New recycling centers were built where materials could be transformed into new products.",
+        image: storyEarthHeroCh8,
+        altText: "New recycling centers with solar panels and colorful bins in city",
+        layout: "two-column-right"
+      },
+      {
+        text: "The recycling centers had solar panels on their roofs for clean energy. Inside, machines sorted and processed materials. Paper became new notebooks. Plastic became park benches and playground equipment. Glass became new bottles and jars. Metal became bikes and tools. Nothing went to waste!",
+      },
+      {
+        text: "Families throughout the city joined the recycling revolution. Parents and children worked together, sorting their recyclables at home. 'Look Mom, this plastic container goes in the yellow bin!' children would say. 'And this newspaper goes in the blue bin!' The city was becoming cleaner and greener every single day.",
+        image: storyEarthHeroCh9,
+        altText: "Families sorting recyclables together in modern kitchen",
+        layout: "two-column-left"
+      },
+      {
+        text: "Schools started teaching environmental science. Students learned about ecosystems, climate change, and conservation. They discovered how every small action could make a big difference. They understood that protecting the Earth wasn't just Captain Earth's job – it was everyone's responsibility!",
+      },
+      {
+        text: "Months passed, and the transformation was incredible. The city sparkled with clean streets and green parks. The air smelled fresh and clean. Birds, butterflies, and bees thrived in the gardens. The rivers ran crystal clear. Solar panels on buildings generated clean energy. Electric buses glided silently through the streets.",
+        image: storyEarthHeroCh10,
+        altText: "Captain Earth watching transformed clean green city from above",
+        layout: "two-column-right"
+      },
+      {
+        text: "Captain Earth stood on top of the tallest building, looking down at the beautiful city below. The Earth itself seemed to glow brighter in the sky, as if smiling down proudly. 'We did it,' he whispered. 'Together, we saved the day.'",
+      },
+      {
+        text: "That evening, Eddie returned home and changed back into his regular clothes. The Earth emblem on his chest glowed softly under his shirt, a reminder of his special powers. As he looked out his window at the stars, he heard the voices of children playing outside, laughing and talking about recycling.",
+        image: storyEarthHeroCh11,
+        altText: "Eddie in normal clothes with glowing Earth emblem and children friends at sunset",
+      },
+      {
+        text: "Eddie smiled, knowing that the real power wasn't just in his recycling ray. The real power was in teaching others to care. Now, thousands of Earth Heroes were protecting the planet, one small action at a time. The Earth glowed brighter in the sky, knowing it had millions of heroes looking after it. And whenever someone properly recycled something, somewhere in the world, Captain Earth's emblem glowed a little brighter. The planet was in good hands – the hands of heroes like you!",
       }
     ]
   },

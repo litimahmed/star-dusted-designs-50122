@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Volume2, Share2, Clock, Tag, Download, Edit } from "lucide-react";
+import { ArrowLeft, Volume2, Share2, Clock, Tag, Download, Edit, Star } from "lucide-react";
 import { toast } from "sonner";
 import { storyContent } from "@/data/storyContent";
 import StoryRating from "@/components/StoryRating";
@@ -276,22 +276,95 @@ const StoryReader = () => {
           })}
         </div>
 
-        {/* End of Story */}
-        <div className="text-center py-20 mt-20">
-          <div className="inline-block mb-8">
-            <div className="relative">
-              <div className="absolute inset-0 bg-gradient-to-r from-eco-green via-eco-blue to-eco-purple blur-xl opacity-30" />
-              <p className="relative text-4xl md:text-5xl font-bold bg-gradient-to-r from-eco-green via-eco-blue to-eco-purple bg-clip-text text-transparent">
-                The End
+        {/* End of Story - Beautiful Kids Book Style */}
+        <div className="relative text-center py-24 mt-24">
+          {/* Decorative background */}
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-eco-green/5 to-transparent" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-eco-blue/10 rounded-full blur-3xl" />
+          
+          <div className="relative max-w-3xl mx-auto">
+            {/* Decorative stars */}
+            <div className="absolute -top-8 left-1/4 animate-pulse">
+              <Star className="h-8 w-8 fill-eco-green text-eco-green opacity-40" />
+            </div>
+            <div className="absolute -top-4 right-1/3 animate-pulse delay-300">
+              <Star className="h-6 w-6 fill-eco-blue text-eco-blue opacity-40" />
+            </div>
+            <div className="absolute top-0 right-1/4 animate-pulse delay-700">
+              <Star className="h-7 w-7 fill-eco-purple text-eco-purple opacity-40" />
+            </div>
+            
+            {/* The End text */}
+            <div className="inline-block mb-10">
+              <div className="relative p-8">
+                <div className="absolute inset-0 bg-gradient-to-r from-eco-green/20 via-eco-blue/20 to-eco-purple/20 blur-2xl animate-pulse" />
+                <div className="relative">
+                  <svg className="w-full h-32 mb-4" viewBox="0 0 400 80">
+                    <defs>
+                      <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                        <stop offset="0%" stopColor="hsl(var(--eco-green))" />
+                        <stop offset="50%" stopColor="hsl(var(--eco-blue))" />
+                        <stop offset="100%" stopColor="hsl(var(--eco-purple))" />
+                      </linearGradient>
+                    </defs>
+                    <text 
+                      x="50%" 
+                      y="50%" 
+                      textAnchor="middle" 
+                      dominantBaseline="middle"
+                      className="font-fredoka font-bold text-6xl"
+                      fill="url(#textGradient)"
+                      stroke="url(#textGradient)"
+                      strokeWidth="2"
+                    >
+                      The End
+                    </text>
+                  </svg>
+                  
+                  {/* Decorative flourish */}
+                  <div className="flex items-center justify-center gap-4 mb-6">
+                    <div className="h-px w-24 bg-gradient-to-r from-transparent via-eco-green to-transparent" />
+                    <div className="w-3 h-3 rounded-full bg-eco-green animate-pulse" />
+                    <div className="h-px w-24 bg-gradient-to-r from-transparent via-eco-green to-transparent" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Message */}
+            <div className="space-y-6 mb-12">
+              <p className="text-2xl md:text-3xl font-bold text-foreground font-fredoka leading-relaxed">
+                Congratulations, Earth Hero! 🌟
               </p>
+              <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl mx-auto">
+                You've completed this amazing eco-adventure! Every story you read brings you one step closer to becoming a true guardian of our planet.
+              </p>
+              <div className="inline-flex items-center gap-2 bg-eco-green/10 px-6 py-3 rounded-full">
+                <span className="text-eco-green text-lg font-semibold">Ready for your next adventure?</span>
+              </div>
+            </div>
+
+            {/* CTA Button */}
+            <Button 
+              onClick={() => navigate("/")} 
+              size="lg" 
+              className="group relative bg-gradient-to-r from-eco-green via-eco-blue to-eco-purple hover:from-eco-green/90 hover:via-eco-blue/90 hover:to-eco-purple/90 text-white px-12 py-8 text-xl font-bold rounded-2xl shadow-2xl hover:shadow-eco-green/50 transition-all duration-300 hover:scale-105"
+            >
+              <span className="relative z-10 flex items-center gap-3">
+                Discover More Stories
+                <Star className="h-6 w-6 group-hover:rotate-12 transition-transform" />
+              </span>
+              <div className="absolute inset-0 bg-gradient-to-r from-eco-purple via-eco-blue to-eco-green opacity-0 group-hover:opacity-100 transition-opacity rounded-2xl" />
+            </Button>
+
+            {/* Bottom decorative stars */}
+            <div className="absolute -bottom-8 left-1/3 animate-pulse delay-500">
+              <Star className="h-7 w-7 fill-eco-purple text-eco-purple opacity-40" />
+            </div>
+            <div className="absolute -bottom-4 right-1/4 animate-pulse delay-1000">
+              <Star className="h-6 w-6 fill-eco-green text-eco-green opacity-40" />
             </div>
           </div>
-          <p className="text-xl text-muted-foreground mb-8 max-w-md mx-auto">
-            You've completed this amazing eco-adventure! Ready for another story?
-          </p>
-          <Button onClick={() => navigate("/")} size="lg" className="text-lg px-8 py-6">
-            Discover More Stories
-          </Button>
         </div>
       </article>
 
